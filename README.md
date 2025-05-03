@@ -1,8 +1,3 @@
-# Klipper-Backup 💾 
-Klipper backup script for manual or automated GitHub backups 
-
-This backup is provided by [Klipper-Backup](https://github.com/Staubgeborener/klipper-backup).
-
 # Motion And Tool Configuration
 
 - Stepper X: LDO 2504 AC
@@ -30,10 +25,11 @@ This backup is provided by [Klipper-Backup](https://github.com/Staubgeborener/kl
 
 - Raspberry Pi 4B connected via UART to
 - Fystec Spider 3.0
-- Aux Boards
+- Critical Aux MCU Boards
   - BTT EBB SB2209 USB (connected via USB)
   - BTT MMB CAN v1.1 (connected via USB)
-  - Beacon Rev H (connected via USB directly to BTT EBB SB2209 USB)  
+- Non-critcal Aux MCU boards
+  - Beacon Rev H (connected via USB directly to BTT EBB SB2209 USB) 
 
 # Software Configuration
 - Debian Bullseye
@@ -45,3 +41,9 @@ This backup is provided by [Klipper-Backup](https://github.com/Staubgeborener/kl
 - Beacon
 - KAMP
 - Klipper led-effect
+
+# Klipper-Backup 💾 
+Klipper backup script for manual or automated GitHub backups 
+
+This backup is provided by [Klipper-Backup](https://github.com/Staubgeborener/klipper-backup).
+
