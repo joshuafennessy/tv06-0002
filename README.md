@@ -26,13 +26,13 @@
 - Raspberry Pi 4B connected via UART to
 - Fystec Spider 3.0
 - Critical Aux MCU Boards
-  - BTT EBB SB2209 USB (connected via USB)
+  - LDO NighthawkSB (connected via USB/CAN interface)
   - BTT MMB CAN v1.1 (connected via USB)
 - Non-critcal Aux MCU boards
-  - Beacon Rev H (connected via USB directly to BTT EBB SB2209 USB) 
+  - Beacon Rev H (connected via USB) 
 
 # Software Configuration
-- Debian Bullseye
+- Debian Bookworm
 - Kalico (stable)
 - Happy-Hare (stable)
 
